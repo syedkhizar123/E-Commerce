@@ -62,7 +62,7 @@ export const Navbar = () => {
                     </Nav>
                 </div>
                 <div className="flex m-4 gap-2 flex justify-around gap-1">
-                    <Nav.Link as={NavLink} to="http://localhost:5174" className="text-dark ">
+                    <Nav.Link as={NavLink} to="https://e-commerce-adminpanel-iota.vercel.app/" className="text-dark ">
                             <button className="px-3 py-1 border rounded-5 bg-black text-white mt-2 hidden min-[840px]:block">
                                 Admin
                             </button>
@@ -89,7 +89,7 @@ export const Navbar = () => {
                     <Nav.Link onClick={() => { setVisible(false) }} className="py-2 px-3 border bg" as={NavLink} to="/collection">Collection</Nav.Link>
                     <Nav.Link onClick={() => { setVisible(false) }} className="py-2 px-3 border bg" as={NavLink} to="/about">About</Nav.Link>
                     <Nav.Link onClick={() => { setVisible(false) }} className="py-2 px-3 border bg" as={NavLink} to="/contact">Contact</Nav.Link>
-                    <Nav.Link onClick={() => { setVisible(false) }} className="py-2 px-3 border bg" as={NavLink} to="http://localhost:5174">Admin</Nav.Link>
+                    <Nav.Link onClick={() => { setVisible(false) }} className="py-2 px-3 border bg" as={NavLink} to="https://e-commerce-adminpanel-iota.vercel.app/">Admin</Nav.Link>
 
 
 
