@@ -4,7 +4,7 @@ import { Sidebar } from './Components/Sidebar'
 import { Add } from './Pages/add';
 import { List } from './Pages/list';
 import { Orders } from './Pages/orders';
-import { Login } from './Pages/login';
+import { Login } from './Pages/Login';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
