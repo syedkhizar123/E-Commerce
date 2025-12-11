@@ -11,7 +11,7 @@ export const Navbar = () => {
                     <p className="text-2xl text-black-800 font-semibold pt-1"> EASYWEAR </p>
                 </div>
                 <div className="my-[20px]">
-                    <Nav.Link as={NavLink} to="https://e-commerce-adminpanel-iota.vercel.app/" >
+                    <Nav.Link as={NavLink} to="https://e-commerce-frontend-seven-beta.vercel.app/" >
                         <button className="px-4 py-2  bg-gray-600 text-white font-medium rounded hover:bg-gray-700">
                         Logout
                     </button>
